@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown;
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    background-color:black;
+}
+h1{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: blue;
+}
+.nav{
+    width: 100%;
+    height:500px;
+    background-image: url("https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?t=st=1720157619~exp=1720161219~hmac=2f9a98fc1c1f17b855f66af622b9fd384a623749ef71b398ece44fe21a09a60d&w=826");
+    background-size: cover;
+}
+.nav h2{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.nav p{
+    font-size: 50px;
+    margin-left: 200px;
+    color: aquamarine;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+.image-container{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.card-container{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
